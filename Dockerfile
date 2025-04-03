@@ -18,7 +18,7 @@ ARG BUILD_CONFIGURATION=Release
 WORKDIR /app
 
 COPY ["Ecommerce.csproj", "Ecommerce/"]
-COPY ["EcommerceData.csproj", "EcommerceData/"]
+COPY ["../EcommerceData.csproj", "EcommerceData/"]
 
 RUN dotnet nuget locals all --clear
 

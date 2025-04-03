@@ -17,7 +17,7 @@ FROM mcr.microsoft.com/dotnet/sdk:5.0 AS build
 ARG BUILD_CONFIGURATION=Release
 WORKDIR /app
 COPY ./Ecommerce.csproj Ecommerce/
-COPY ./EcommerceData.csproj EcommerceData/
+COPY ./EcommerceData/EcommerceData.csproj EcommerceData/
 
 RUN dotnet nuget locals all --clear
 

@@ -1,0 +1,10 @@
+﻿@model Ecommerce.Models.ViewModel.UserProductViewModel
+@{
+    ViewData["Title"] = "LoadMore";
+    Layout = "~/Views/Shared/_Layout1.cshtml";
+}
+
+<h1>Kindly <a asp-controller="Authentication" asp-action ="GetLogin"> SignUp/Login</a> to proceed to view more products</h1>
+
+<div><a asp-controller="Home" asp-action="Index">Go Back</a></div>
+

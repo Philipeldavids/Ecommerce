@@ -1,0 +1,51 @@
+﻿@model Ecommerce.Models.ViewModel.UserProductViewModel
+@{
+    ViewData["Title"] = "Products";
+}
+<div class="nav"><span><a href="https://localhost:44316/">Home</a></span><span>/HotDeals</span></div>
+<h1>All Products</h1>
+ 
+
+<div>
+    <ul class="products">
+        <li style="color:#40BFFF"><a href="https://localhost:44316/Products/ProductList">All</a></li>
+        <li><a href="#">Bag</a></li>
+        <li><a href="#">Sneakers</a></li>
+        <li><a href="#">Belt</a></li>
+        <li><a href="#">Sunglasses</a></li>
+    </ul>
+</div>
+<div class="product-log">
+@foreach(var item in Model.PaginatedPage())
+{          
+            <div class="contain">
+                    <img src="@item.ImageUrl" alt="" class="product-image" >                     
+            <div class = "product-desc">
+                <p style = "font-family: Poppins; font-size: 12px; font-weight: bold;">@item.Name</p>
+                <div class="star">
+                        <img src="~/images/star copy 4.png" alt="">
+                        <img src="~/images/star copy 4.png" alt="">
+                        <img src="~/images/star copy 4.png" alt="">
+                        <img src="~/images/star copy 4.png" alt="">
+                        <img src="~/images/star copy 2.png" alt="">
+                </div>                    
+                <div class="prod-price">
+                    <p style="color: #40BFFF; font-weight:bold;">@item.Price</p>
+                    <div style="margin-left: 6px; display: flex;">
+                        <p style="color:#9098B1; font-size:x-small;"><strike>$@item.DiscountedPrice</strike></p>
+                        <p style="color:#FB7181;">@item.PercentOff % Off</p>
+                    </div>                        
+                </div>                
+            </div>
+        </div> 
+            
+}
+</div>
+<ul class = "pagination"> 
+    @for(int i = 1; i<= Model.PageCount(); i++)
+    {
+        <li class="@(i == Model.Currentpage ? "page-item active" : "page-item")">
+            <a class="page-link" href="@Url.Action("ProductList", new {page = i})">@i</a>
+        </li>
+    }
+</ul>

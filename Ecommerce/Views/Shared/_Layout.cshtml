@@ -1,0 +1,141 @@
+﻿@model Ecommerce.Models.ViewModel.UserProductViewModel
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Ecommerce</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"/>    
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins&family=Raleway">
+    <script src="~/js/site.js"></script>
+    
+</head>
+<body>
+    <header>
+        <nav class="containr">         
+           
+            <div class="top-menu">
+                <div>
+                    <ul class="top-left">
+                        <li><a href="#">EN<i class="fas fa-caret-down"></i></a></li>
+                        <li><a href="#">USD<i class="fas fa-caret-down"></i></a></li>                
+                    </ul>     
+                </div>
+                <div>
+                    <ul class="top-right">                       
+                        
+                        <li class ="topspace">
+                            @if(@Model.IsLogin == true)
+                            {
+                                 <a><i class="fas fa-user"></i>My Profile</a>                                
+                            }
+                            else
+                            {
+                               <a asp-controller="Authentication" asp-action="GetLogin"><i class="fas fa-user"></i>&nbsp;Login</a>
+                            }                  
+                                                       
+                        </li>
+                                                             
+                        <li class ="topspace"><a href="#"><i class="fas fa-shopping-cart"></i>&nbsp;&nbsp;Items</a></li>
+                        <li class ="topspace"><a href="#">$0.00&nbsp;&nbsp;<i class="fas fa-search"></i></a></li>
+                    </ul>   
+                </div>
+            </div>
+            <div class="navbar">
+                <div class="logo">
+                    <a href="#"><img src="~/images/Group 490.png" alt=""></a>                            
+                </div>          
+                <div class="menubar">
+                    <ul class="menu" id="myMenu">
+                        <li><a href="https://localhost:44316/">HOME</a></li>
+                        <li><a href="#">BAG</a></li>                    
+                        <li><a href="#">SNEAKERS</a></li>
+                        <li><a href="#">BELT</a></li>
+                        <li><a href="#">CONTACT</a></li>                        
+                    </ul>                     
+                     <i class="fa fa-bars" id="icon" ></i>
+                </div>        
+            </div>        
+        </nav>
+    </header>
+    <div class="">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class="foot">           
+        <div class="footer-div">
+                <div class="footer-text">
+                    <img src="~/images/Group 490.png" alt="" />
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever.Since the 1500s, when an unknown printer.</p>
+                </div>
+                <div class="footer-text">
+                    <p>Follow Us</p>
+                    <p>Since the 1500s, when an unknown printer took a galley of type and scrambled.</p>
+                    <div class="media-icons">
+                    <a href="https://facebook.com/"><img src="~/images/facebook.png"></a>
+                    <a href="https://twitter.com/"><img src="~/images/twitter.png"></a>
+                    </div>
+                </div>
+                <div class="footer-text">
+                    <p>Contact Us</p>
+                    <p>E-Comm , 4578 Marmora Road, Glasgow D04 89GR</p>
+                </div>
+        </div>
+        <div class="footer-div2">
+                <div class="footer-text2">
+                    <p>Information</p>
+                    <ul>
+                        <li>About Us</li>
+                        <li>Information</li>
+                        <li>Privacy Policy</li>
+                        <li>Terms & Conditions</li>
+                    </ul>               
+                  </div>
+                <div class="footer-text2">
+                    <p>Service</p>
+                     <ul>
+                        <li>About Us</li>
+                        <li>Information</li>
+                        <li>Privacy Policy</li>
+                        <li>Terms & Conditions</li>
+                    </ul>     
+                </div>
+                <div class="footer-text2">
+                    <p>My Account</p>
+                     <ul>
+                        <li>About Us</li>
+                        <li>Information</li>
+                        <li>Privacy Policy</li>
+                        <li>Terms & Conditions</li>
+                    </ul>     
+                </div>
+                <div class="footer-text2">
+                    <p>Our Offer</p>
+                      <ul>
+                        <li>About Us</li>
+                        <li>Information</li>
+                        <li>Privacy Policy</li>
+                        <li>Terms & Conditions</li>
+                    </ul>     
+                </div>
+            </div>
+        <hr id="line"/>   
+        <div>
+            <div class="brands">
+                <img src="~/images/Western-union.png"><img/>
+                <img src="~/images/Group 19.png"><img/>
+                <img src="~/images/Paypal.png"><img/>
+                <img src="~/images/Group 525.png"><img/>
+            </div>
+        </div>
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

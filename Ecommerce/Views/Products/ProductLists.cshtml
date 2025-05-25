@@ -1,0 +1,108 @@
+﻿
+@{
+    ViewData["Title"] = "ProductLists";
+}
+
+<div class= "nav-container">
+    <ul class="navigator"> 
+        <li>
+            <a href="https://localhost:44316/">Home</a> 
+        </li>
+        <li>
+            / Hot Deal
+        </li>
+    </ul>
+ </div>
+<div class="product-container">
+    <div class= "prod-prop">
+        <div class="deal-list">
+            <div class="deal-list-head">Hot Deals</div>
+            <div class= "deal-list-cont"><p>Nike</p><p>2</p></div>
+            <div class= "deal-list-cont"><p>Airmax</p><p>48</p></div>
+            <div class= "deal-list-cont"><p>Nike</p><p>14</p></div>
+            <div class= "deal-list-cont"><p>Adidas</p><p>15</p></div>
+            <div class= "deal-list-cont"><p>Vans</p><p>23</p></div>
+            <div class= "deal-list-cont"><p>All Stars</p><p>1</p></div>
+            <div class= "deal-list-cont"><p>Adidas</p><p>95</p></div>
+        </div>
+        <div>
+            <div>PRICES</div>
+            <div><p>Ranger</p><p>$13.99 - $25.99</p></div>
+        </div>
+        <div>
+            <div>COLOR</div>
+            <div></div>
+        </div>
+        <div>
+            <div>BRAND</div>
+            <div><p>Nike</p><p>99</p></div>
+            <div><p>Nike</p><p>99</p></div>
+            <div><p>Adidas</p><p>99</p></div>
+            <div><p>Siemens</p><p>99</p></div>
+        </div>
+        <div>MORE</div>
+    </div>
+    <div class="product-logs">
+        <div class="prod-header">
+            <div id="prod-header-caption">
+                <h2>Adidas Men Running</ br>
+                    Sneakers</h2>
+                <p>Performance and design. Taken right to the edge.</p>
+                <p><a href="#">SHOP NOW</a></p>
+            </div>
+            <div>
+                <img src="images/shoes-shoe-png-transparent-shoe-images-pluspng-17 1.png" alt="featuredshoe">
+            </div>
+        </div>
+        <div class="prod-control">
+            <div class="prod-control-one">
+                <p>13 Items</p>
+                <p>Sort By</p>
+                <div class="name-control"><p>Name</p><i class="fas fa-caret-down"></i></div>
+                <p>Show</p>
+                <div class="name-control"><p>12</p><i class="fas fa-caret-down"></i></div>
+            </div>
+            <div>
+                <i class="fas fa-bars"></i>
+            </div>            
+        </div>
+        <div class="product-log-grid">
+            @foreach(var item in Model.PaginatedPage())
+            {      
+                  
+                    <div class="contain">
+                        <a asp-controller="Products" asp-action ="ProductInfo" asp-route-id ="@item.Id">
+                            <img src="@item.ImageUrl" alt="" class="product-image" >                     
+                    <div class = "product-desc">
+                        <p style = "font-family: Poppins; font-size: 12px; font-weight: bold;">@item.Name</p>
+                        <div class="star">
+                                <img src="~/images/star copy 4.png" alt="">
+                                <img src="~/images/star copy 4.png" alt="">
+                                <img src="~/images/star copy 4.png" alt="">
+                                <img src="~/images/star copy 4.png" alt="">
+                                <img src="~/images/star copy 2.png" alt="">
+                        </div>                    
+                        <div class="prod-price">
+                            <p style="color: #40BFFF; font-weight:bold;">@item.Price</p>
+                            <div style="margin-left: 6px; display: flex;">
+                                <p style="color:#9098B1; font-size:x-small;"><strike>$@item.DiscountedPrice</strike></p>
+                                <p style="color:#FB7181;">@item.PercentOff % Off</p>
+                            </div>                        
+                        </div>                
+                    </div>
+                    </a>
+                </div>     
+                    
+                                    
+            }
+            </div>
+            <ul class = "pagination"> 
+                @for(int i = 1; i<= Model.PageCount(); i++)
+                {
+                    <li class="@(i == Model.Currentpage ? "page-item active" : "page-item")">
+                        <a class="page-link" href="@Url.Action("ProductLists", new {page = i})">@i</a>
+                    </li>
+                }
+            </ul>
+    </div>
+</div>

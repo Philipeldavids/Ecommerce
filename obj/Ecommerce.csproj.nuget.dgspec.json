@@ -33,8 +33,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\USER\\Desktop\\Ecommerce\\EcommerceData\\EcommerceData.csproj": {
-                "projectPath": "C:\\Users\\USER\\Desktop\\Ecommerce\\EcommerceData\\EcommerceData.csproj"
+              "C:\\Users\\USER\\Desktop\\Ecommerce\\Ecommerce1\\EcommerceData.csproj": {
+                "projectPath": "C:\\Users\\USER\\Desktop\\Ecommerce\\Ecommerce1\\EcommerceData.csproj"
               }
             }
           }

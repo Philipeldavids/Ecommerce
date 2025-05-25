@@ -7835,7 +7835,7 @@
   },
   "projectFileDependencyGroups": {
     "net5.0": [
-      "C:\\Users\\USER\\Desktop\\Ecommerce\\EcommerceData\\EcommerceData.csproj",
+      "C:\\Users\\USER\\Desktop\\Ecommerce\\Ecommerce1\\EcommerceData.csproj",
       "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation >= 5.0.13",
       "Microsoft.EntityFrameworkCore >= 5.0.16",
       "Microsoft.EntityFrameworkCore.Design >= 5.0.16",
@@ -7879,8 +7879,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\USER\\Desktop\\Ecommerce\\EcommerceData\\EcommerceData.csproj": {
-              "projectPath": "C:\\Users\\USER\\Desktop\\Ecommerce\\EcommerceData\\EcommerceData.csproj"
+            "C:\\Users\\USER\\Desktop\\Ecommerce\\Ecommerce1\\EcommerceData.csproj": {
+              "projectPath": "C:\\Users\\USER\\Desktop\\Ecommerce\\Ecommerce1\\EcommerceData.csproj"
             }
           }
         }
@@ -7963,10 +7963,10 @@
   },
   "logs": [
     {
-      "code": "NU1104",
+      "code": "NU1105",
       "level": "Error",
-      "message": "Unable to find project 'C:\\Users\\USER\\Desktop\\Ecommerce\\EcommerceData\\EcommerceData.csproj'. Check that the project reference is valid and that the project file exists.",
-      "libraryId": "C:\\Users\\USER\\Desktop\\Ecommerce\\EcommerceData\\EcommerceData.csproj",
+      "message": "Unable to find project information for 'C:\\Users\\USER\\Desktop\\Ecommerce\\Ecommerce1\\EcommerceData.csproj'. If you are using Visual Studio, this may be because the project is unloaded or not part of the current solution so run a restore from the command-line. Otherwise, the project file may be invalid or missing targets required for restore.",
+      "libraryId": "C:\\Users\\USER\\Desktop\\Ecommerce\\Ecommerce1\\EcommerceData.csproj",
       "targetGraphs": [
         "net5.0"
       ]

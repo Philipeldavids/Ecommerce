@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "meij6RcY8BU=",
+  "dgSpecHash": "N8lnS94RTPM=",
   "success": false,
   "projectFilePath": "C:\\Users\\USER\\Desktop\\Ecommerce\\Ecommerce1\\Ecommerce.csproj",
   "expectedPackageFiles": [
@@ -141,10 +141,10 @@
   ],
   "logs": [
     {
-      "code": "NU1104",
+      "code": "NU1105",
       "level": "Error",
-      "message": "Unable to find project 'C:\\Users\\USER\\Desktop\\Ecommerce\\EcommerceData\\EcommerceData.csproj'. Check that the project reference is valid and that the project file exists.",
-      "libraryId": "C:\\Users\\USER\\Desktop\\Ecommerce\\EcommerceData\\EcommerceData.csproj",
+      "message": "Unable to find project information for 'C:\\Users\\USER\\Desktop\\Ecommerce\\Ecommerce1\\EcommerceData.csproj'. If you are using Visual Studio, this may be because the project is unloaded or not part of the current solution so run a restore from the command-line. Otherwise, the project file may be invalid or missing targets required for restore.",
+      "libraryId": "C:\\Users\\USER\\Desktop\\Ecommerce\\Ecommerce1\\EcommerceData.csproj",
       "targetGraphs": [
         "net5.0"
       ]

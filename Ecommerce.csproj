@@ -29,7 +29,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="EcommerceData\EcommerceData.csproj" />
+    <ProjectReference Include="..\EcommerceData\EcommerceData.csproj" />
   </ItemGroup>
 
 </Project>

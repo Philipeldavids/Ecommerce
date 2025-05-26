@@ -1,0 +1,45 @@
+C:\Users\hp\source\repos\MVC\EcommerceData\bin\Debug\net5.0\EcommerceData.deps.json
+C:\Users\hp\source\repos\MVC\EcommerceData\bin\Debug\net5.0\EcommerceData.runtimeconfig.json
+C:\Users\hp\source\repos\MVC\EcommerceData\bin\Debug\net5.0\EcommerceData.runtimeconfig.dev.json
+C:\Users\hp\source\repos\MVC\EcommerceData\bin\Debug\net5.0\EcommerceData.dll
+C:\Users\hp\source\repos\MVC\EcommerceData\bin\Debug\net5.0\ref\EcommerceData.dll
+C:\Users\hp\source\repos\MVC\EcommerceData\bin\Debug\net5.0\EcommerceData.pdb
+C:\Users\hp\source\repos\MVC\EcommerceData\obj\Debug\net5.0\EcommerceData.csproj.AssemblyReference.cache
+C:\Users\hp\source\repos\MVC\EcommerceData\obj\Debug\net5.0\EcommerceData.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hp\source\repos\MVC\EcommerceData\obj\Debug\net5.0\EcommerceData.AssemblyInfoInputs.cache
+C:\Users\hp\source\repos\MVC\EcommerceData\obj\Debug\net5.0\EcommerceData.AssemblyInfo.cs
+C:\Users\hp\source\repos\MVC\EcommerceData\obj\Debug\net5.0\EcommerceData.csproj.CoreCompileInputs.cache
+C:\Users\hp\source\repos\MVC\EcommerceData\obj\Debug\net5.0\EcommerceData.dll
+C:\Users\hp\source\repos\MVC\EcommerceData\obj\Debug\net5.0\ref\EcommerceData.dll
+C:\Users\hp\source\repos\MVC\EcommerceData\obj\Debug\net5.0\EcommerceData.pdb
+C:\Users\hp\source\repos\MVC\EcommerceData\obj\Debug\net5.0\EcommerceData.genruntimeconfig.cache
+C:\Users\USER\Desktop\fromDecagonLaptop\reposBackup\repos\MVC\EcommerceData\bin\Debug\net5.0\EcommerceData.deps.json
+C:\Users\USER\Desktop\fromDecagonLaptop\reposBackup\repos\MVC\EcommerceData\bin\Debug\net5.0\EcommerceData.runtimeconfig.json
+C:\Users\USER\Desktop\fromDecagonLaptop\reposBackup\repos\MVC\EcommerceData\bin\Debug\net5.0\EcommerceData.runtimeconfig.dev.json
+C:\Users\USER\Desktop\fromDecagonLaptop\reposBackup\repos\MVC\EcommerceData\bin\Debug\net5.0\EcommerceData.dll
+C:\Users\USER\Desktop\fromDecagonLaptop\reposBackup\repos\MVC\EcommerceData\bin\Debug\net5.0\EcommerceData.pdb
+C:\Users\USER\Desktop\fromDecagonLaptop\reposBackup\repos\MVC\EcommerceData\obj\Debug\net5.0\EcommerceData.csproj.AssemblyReference.cache
+C:\Users\USER\Desktop\fromDecagonLaptop\reposBackup\repos\MVC\EcommerceData\obj\Debug\net5.0\EcommerceData.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USER\Desktop\fromDecagonLaptop\reposBackup\repos\MVC\EcommerceData\obj\Debug\net5.0\EcommerceData.AssemblyInfoInputs.cache
+C:\Users\USER\Desktop\fromDecagonLaptop\reposBackup\repos\MVC\EcommerceData\obj\Debug\net5.0\EcommerceData.AssemblyInfo.cs
+C:\Users\USER\Desktop\fromDecagonLaptop\reposBackup\repos\MVC\EcommerceData\obj\Debug\net5.0\EcommerceData.csproj.CoreCompileInputs.cache
+C:\Users\USER\Desktop\fromDecagonLaptop\reposBackup\repos\MVC\EcommerceData\obj\Debug\net5.0\EcommerceData.dll
+C:\Users\USER\Desktop\fromDecagonLaptop\reposBackup\repos\MVC\EcommerceData\obj\Debug\net5.0\refint\EcommerceData.dll
+C:\Users\USER\Desktop\fromDecagonLaptop\reposBackup\repos\MVC\EcommerceData\obj\Debug\net5.0\EcommerceData.pdb
+C:\Users\USER\Desktop\fromDecagonLaptop\reposBackup\repos\MVC\EcommerceData\obj\Debug\net5.0\EcommerceData.genruntimeconfig.cache
+C:\Users\USER\Desktop\fromDecagonLaptop\reposBackup\repos\MVC\EcommerceData\obj\Debug\net5.0\ref\EcommerceData.dll
+C:\Users\USER\Desktop\fromDecagonLaptop\reposBackup\repos\MVC\Ecommerce -WEEK 9 EF\EcommerceData\bin\Debug\net5.0\EcommerceData.deps.json
+C:\Users\USER\Desktop\fromDecagonLaptop\reposBackup\repos\MVC\Ecommerce -WEEK 9 EF\EcommerceData\bin\Debug\net5.0\EcommerceData.runtimeconfig.json
+C:\Users\USER\Desktop\fromDecagonLaptop\reposBackup\repos\MVC\Ecommerce -WEEK 9 EF\EcommerceData\bin\Debug\net5.0\EcommerceData.runtimeconfig.dev.json
+C:\Users\USER\Desktop\fromDecagonLaptop\reposBackup\repos\MVC\Ecommerce -WEEK 9 EF\EcommerceData\bin\Debug\net5.0\EcommerceData.dll
+C:\Users\USER\Desktop\fromDecagonLaptop\reposBackup\repos\MVC\Ecommerce -WEEK 9 EF\EcommerceData\bin\Debug\net5.0\EcommerceData.pdb
+C:\Users\USER\Desktop\fromDecagonLaptop\reposBackup\repos\MVC\Ecommerce -WEEK 9 EF\EcommerceData\obj\Debug\net5.0\EcommerceData.csproj.AssemblyReference.cache
+C:\Users\USER\Desktop\fromDecagonLaptop\reposBackup\repos\MVC\Ecommerce -WEEK 9 EF\EcommerceData\obj\Debug\net5.0\EcommerceData.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USER\Desktop\fromDecagonLaptop\reposBackup\repos\MVC\Ecommerce -WEEK 9 EF\EcommerceData\obj\Debug\net5.0\EcommerceData.AssemblyInfoInputs.cache
+C:\Users\USER\Desktop\fromDecagonLaptop\reposBackup\repos\MVC\Ecommerce -WEEK 9 EF\EcommerceData\obj\Debug\net5.0\EcommerceData.AssemblyInfo.cs
+C:\Users\USER\Desktop\fromDecagonLaptop\reposBackup\repos\MVC\Ecommerce -WEEK 9 EF\EcommerceData\obj\Debug\net5.0\EcommerceData.csproj.CoreCompileInputs.cache
+C:\Users\USER\Desktop\fromDecagonLaptop\reposBackup\repos\MVC\Ecommerce -WEEK 9 EF\EcommerceData\obj\Debug\net5.0\EcommerceData.dll
+C:\Users\USER\Desktop\fromDecagonLaptop\reposBackup\repos\MVC\Ecommerce -WEEK 9 EF\EcommerceData\obj\Debug\net5.0\refint\EcommerceData.dll
+C:\Users\USER\Desktop\fromDecagonLaptop\reposBackup\repos\MVC\Ecommerce -WEEK 9 EF\EcommerceData\obj\Debug\net5.0\EcommerceData.pdb
+C:\Users\USER\Desktop\fromDecagonLaptop\reposBackup\repos\MVC\Ecommerce -WEEK 9 EF\EcommerceData\obj\Debug\net5.0\EcommerceData.genruntimeconfig.cache
+C:\Users\USER\Desktop\fromDecagonLaptop\reposBackup\repos\MVC\Ecommerce -WEEK 9 EF\EcommerceData\obj\Debug\net5.0\ref\EcommerceData.dll
